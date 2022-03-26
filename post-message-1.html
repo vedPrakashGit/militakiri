@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Militakiri - Bericht Plaatsen</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/responsive.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body class="body-bg">
+    <div class="main-div d-flex flex-column">
+        <header class="padding-div">
+            <nav class="navbar navbar-expand-md flex-wrap navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/tons-logo.png" class="img-fluid tons-logo" alt="Tons of Times Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="lang-btns">
+                        <a href="post-message.html" class="btn eng-btn fw-bold text-uppercase" aria-current="page">EN</a>
+                        <a href="post-message-1.html" class="btn dut-btn active fw-bold text-uppercase">NL</a>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-end mt-3" id="navbarScroll">
+                    <ul class="nav upper-menu justify-content-center">
+                        <li class="nav-item"><a href="news-1.html" class="nav-link text-uppercase fs-mob-14">NIEUWS</a></li>
+                        <li class="nav-item"><a href="about-tons-of-time-games-1.html" class="nav-link text-uppercase fs-mob-14">OVER TONS OF TIME GAMES</a></li>
+                        <li class="nav-item"><a href="the-history-of-the-game-1.html" class="nav-link text-uppercase fs-mob-14">DE GESCHIEDENIS VAN HET SPEL</a></li>
+                        <li class="nav-item"><a href="what-means-militakiri-1.html" class="nav-link text-uppercase fs-mob-14">WAT BETEKENT MILITAKIRI</a></li>
+                        <li class="nav-item"><a href="key-features-of-the-game-1.html" class="nav-link text-uppercase fs-mob-14">BELANGRIJKSTE KENMERKEN VAN HET SPEL</a></li>
+                        <li class="nav-item"><a href="game-rules-1.html" class="nav-link text-uppercase fs-mob-14">SPELREGELS/HANDLEIDINGEN/TUTORIALS</a></li>
+                        <li class="nav-item"><a href="rank-status-of-the-player-1.html" class="nav-link text-uppercase fs-mob-14">RANG STATUS VAN DE SPELER/PUNTEN SYSTEEM</a></li>
+                        <li class="nav-item"><a href="leaderboards-1.html" class="nav-link text-uppercase fs-mob-14">SCOREBORDEN</a></li>
+                        <li class="nav-item"><a href="forums-1.html" class="nav-link text-uppercase fs-mob-14">FORUMS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="padding-div mt-5">
+            <div class="container-fluid">
+                <section class="overlay-section advanced">
+                    <div class="d-flex justify-content-between flex-column flex-md-row">
+                        <div>
+                            <h2 class="text-white fs-36 fs-mob-32 mb-0 text-uppercase fw-bold">FORUMS</h2>
+    
+                            <nav aria-label="breadcrumb forums-breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="index-1.html" class="text-white">Startpagina</a></li>
+                                  <li class="breadcrumb-item"><a href="forums-1.html" class="text-white">Forums</a></li>
+                                  <li class="breadcrumb-item"><a href="general-1.html" class="text-white">Algemene</a></li>
+                                  <li class="breadcrumb-item text-white active" aria-current="page">Algemene Chats</li>
+                                </ol>
+                              </nav>
+                        </div>
+
+                        <div>
+                            <ul class="nav right-nav mb-3 mb-md-0">
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle text-white d-flex align-items-center" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"><img src="images/register.svg" class="img-fluid me-2" alt="User" width="20"> John Kallis </button>
+
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                        <li><a class="dropdown-item" href="my-profile.html"><i class="bi bi-person-square me-1"></i> Mijn Profiel</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="change-password.html"><i class="bi   bi-lock me-1"></i> Verander wachtwoord</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                         <li><a class="dropdown-item" href="login.html"><i class="bi bi-box-arrow-right me-1"></i> Uitloggen</a></li>
+                                    </ul>
+                                  </div>
+                                <li class="nav-item"><a href="general-1.html" class="nav-link text-white d-flex align-items-center"><img src="images/back.svg" class="img-fluid me-1" alt="Back"> Terug</a></li>
+                            </ul>
+                           <!--  <div class="text-end mt-1">
+                                <a href="post-message.html" class="btn post-msg-btn">Bericht Plaatsen</a>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="single-chat-div" id="postDiv">
+                        <div class="container-fluid">
+                            <div class="chat-upper-header d-flex justify-content-between">
+                                <div class="d-flex">
+                                    <img src="images/chat.svg" class="img-fluid me-2" alt="Chat">
+                                    <p class="grey-clr fs-16 mb-0">Plaats een nieuw bericht</p>
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <a href="javascript:void(0)" class="text-white fs-14 no-underline d-flex align-items-center">Openen in Editor</a>
+                                 </div>
+                               
+                            </div>
+
+                            <div class="row py-3">
+                                <div class="col-sm-7">
+                                    <div class="form-group">               
+                                        <label class="form-label lightbrown-clr fs-20" for="title">Titel:</label>
+                                        <div class="input-group mb-3 custom-input-group">
+                                            <input type="text" class="form-control less-bg fs-20" id="title">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">               
+                                        <label class="form-label lightbrown-clr fs-20" for="title">Beschrijf hier je gedachten:</label>
+                                        <div class="input-group mb-3 custom-input-group">
+                                            <textarea type="text" class="form-control less-bg fs-20" rows="5" id="title"></textarea>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn post-reply-btn fs-16">Bericht plaatsen</button>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+                   
+                      
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="nav-link text-white">Markeer alles als gelezen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="forum-rules-1.html" class="nav-link text-white">Forum Regels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="forum-help-1.html" class="nav-link text-white">Forum Hulp</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <footer class="padding-div mt-auto">
+            <div class="container-fluid">
+                <div class="row mt-3">
+                    <div class="col-sm-8 offset-sm-2 text-center">
+                        <p class="copyright-para without-border fs-14 brown-clr py-2 mb-0">All Rights Reserved. © TOTG 2022 | <a href="privacy-policy.html" class="brown-clr no-underline">Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div> 
+        </footer>
+    </div>
+
+    
+        <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./js/custom.js"></script>
+    </body>
+</html>

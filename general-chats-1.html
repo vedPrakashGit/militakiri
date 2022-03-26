@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Militakiri - Algemene Chats</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/responsive.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body class="body-bg">
+    <div class="main-div d-flex flex-column">
+        <header class="padding-div">
+            <nav class="navbar navbar-expand-md flex-wrap navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/tons-logo.png" class="img-fluid tons-logo" alt="Tons of Times Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="lang-btns">
+                        <a href="general-chats.html" class="btn eng-btn fw-bold text-uppercase" aria-current="page">EN</a>
+                        <a href="general-chats-1.html" class="btn dut-btn active fw-bold text-uppercase">NL</a>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-end mt-3" id="navbarScroll">
+                    <ul class="nav upper-menu justify-content-center">
+                        <li class="nav-item"><a href="news-1.html" class="nav-link text-uppercase fs-mob-14">NIEUWS</a></li>
+                        <li class="nav-item"><a href="about-tons-of-time-games-1.html" class="nav-link text-uppercase fs-mob-14">OVER TONS OF TIME GAMES</a></li>
+                        <li class="nav-item"><a href="the-history-of-the-game-1.html" class="nav-link text-uppercase fs-mob-14">DE GESCHIEDENIS VAN HET SPEL</a></li>
+                        <li class="nav-item"><a href="what-means-militakiri-1.html" class="nav-link text-uppercase fs-mob-14">WAT BETEKENT MILITAKIRI</a></li>
+                        <li class="nav-item"><a href="key-features-of-the-game-1.html" class="nav-link text-uppercase fs-mob-14">BELANGRIJKSTE KENMERKEN VAN HET SPEL</a></li>
+                        <li class="nav-item"><a href="game-rules-1.html" class="nav-link text-uppercase fs-mob-14">SPELREGELS/HANDLEIDINGEN/TUTORIALS</a></li>
+                        <li class="nav-item"><a href="rank-status-of-the-player-1.html" class="nav-link text-uppercase fs-mob-14">RANG STATUS VAN DE SPELER/PUNTEN SYSTEEM</a></li>
+                        <li class="nav-item"><a href="leaderboards-1.html" class="nav-link text-uppercase fs-mob-14">SCOREBORDEN</a></li>
+                        <li class="nav-item"><a href="forums-1.html" class="nav-link text-uppercase fs-mob-14">FORUMS</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="padding-div mt-5">
+            <div class="container-fluid">
+                <section class="overlay-section advanced">
+                    <div class="d-flex justify-content-between flex-column flex-md-row">
+                        <div>
+                            <h2 class="text-white fs-36 fs-mob-32 mb-0 text-uppercase fw-bold">FORUMS</h2>
+    
+                            <nav aria-label="breadcrumb forums-breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a href="index-1.html" class="text-white">Startpagina</a></li>
+                                  <li class="breadcrumb-item"><a href="forums-1.html" class="text-white">Forums</a></li>
+                                  <li class="breadcrumb-item"><a href="general-1.html" class="text-white">Algemene</a></li>
+                                  <li class="breadcrumb-item text-white active" aria-current="page">Algemene Chats</li>
+                                </ol>
+                              </nav>
+                        </div>
+
+                        <div>
+                            <ul class="nav right-nav mb-3 mb-md-0">
+                                <li class="nav-item"><a href="login-1.html" class="nav-link text-white d-flex align-items-center"><img src="images/login.svg" class="img-fluid me-1" alt="Login"> Inloggen</a></li>
+                                <li class="nav-item"><a href="register-1.html" class="nav-link text-white d-flex align-items-center"><img src="images/register.svg" class="img-fluid me-1" alt="User"> Registreer</a></li>
+                                <li class="nav-item"><a href="general-1.html" class="nav-link text-white d-flex align-items-center"><img src="images/back.svg" class="img-fluid me-1" alt="Back"> Terug</a></li>
+                            </ul>
+                            <div class="text-end mt-1">
+                                <a href="post-message-1.html" class="btn post-msg-btn">Bericht Plaatsen</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inner-chat-div">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label class="mb-0 green-clr fs-16">Titel</label>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 green-clr fs-16">Antwoorden</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 green-clr fs-16">Weergaven</label>
+                                </div>
+                                <div class="col-sm-4">
+                                    <label class="mb-0 green-clr fs-16">Laatste berichten</label>
+                                </div>
+                            </div>
+    
+                            <div class="row mt-3">
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/chat.svg" class="img-fluid" alt="Chat">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2">
+                                            <a href="single-chat.html" class="grey-clr hover-white fs-16 mb-0">Chatting feature is very cool, I love it!</a>
+                                            <div class="d-flex align-items-center mt-1">
+                                                <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">Royal</a></label>
+                                                <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                                <span class="text-white fs-14">5/21/2021 8:15PM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">25</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">1245</label>
+                                </div>
+                                <div class="col-sm-4">                                
+                                    <div class="d-flex align-items-center">
+                                    <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">Miller</a></label>
+                                    <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                    <span class="text-white fs-14">8/22/2021 8:15PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 pt-2">
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/chat.svg" class="img-fluid" alt="Chat">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2">
+                                            <a href="single-chat.html" class="grey-clr hover-white fs-16 mb-0">Introducing background color to the webiste</a>
+                                            <div class="d-flex align-items-center mt-1">
+                                                <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">GreatNinja</a></label>
+                                                <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                                <span class="text-white fs-14">6/17/2021 7:15PM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">20</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">85</label>
+                                </div>
+                                <div class="col-sm-4">                                
+                                    <div class="d-flex align-items-center">
+                                    <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">MacMillan</a></label>
+                                    <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                    <span class="text-white fs-14">7/30/2021 9:13PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 pt-2">
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/chat.svg" class="img-fluid" alt="Chat">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2">
+                                            <a href="single-chat.html" class="grey-clr hover-white fs-16 mb-0">Demonstration of Development</a>
+                                            <div class="d-flex align-items-center mt-1">
+                                                <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">LievenMilitakiri</a></label>
+                                                <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                                <span class="text-white fs-14">5/19/2021 8:43PM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">15</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">68</label>
+                                </div>
+                                <div class="col-sm-4">                                
+                                    <div class="d-flex align-items-center">
+                                    <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">GranoMan</a></label>
+                                    <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                    <span class="text-white fs-14">6/29/2021 10:06PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 pt-2">
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/chat.svg" class="img-fluid" alt="Chat">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2">
+                                            <a href="single-chat.html" class="grey-clr hover-white fs-16 mb-0">Game Sounds</a>
+                                            <div class="d-flex align-items-center mt-1">
+                                                <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">BartBig</a></label>
+                                                <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                                <span class="text-white fs-14">5/8/2021 12:09AM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">8</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">10</label>
+                                </div>
+                                <div class="col-sm-4">                                
+                                    <div class="d-flex align-items-center">
+                                    <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">Girlbarby</a></label>
+                                    <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                    <span class="text-white fs-14">6/15/2021 8:15PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 pt-2">
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/chat.svg" class="img-fluid" alt="Chat">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2">
+                                            <a href="single-chat.html" class="grey-clr hover-white fs-16 mb-0">Introducing new icons</a>
+                                            <div class="d-flex align-items-center mt-1">
+                                                <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">Samuel</a></label>
+                                                <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                                <span class="text-white fs-14">5/1/2021 1:08AM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">9</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">37</label>
+                                </div>
+                                <div class="col-sm-4">                                
+                                    <div class="d-flex align-items-center">
+                                    <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">McShown</a></label>
+                                    <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                    <span class="text-white fs-14">5/21/2021 8:15PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3">
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/chat.svg" class="img-fluid" alt="Chat">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2">
+                                            <a href="single-chat.html" class="grey-clr hover-white fs-16 mb-0">Chatting feature is very cool, I love it!</a>
+                                            <div class="d-flex align-items-center mt-1">
+                                                <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">Royal</a></label>
+                                                <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                                <span class="text-white fs-14">5/21/2021 8:15PM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">25</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">1245</label>
+                                </div>
+                                <div class="col-sm-4">                                
+                                    <div class="d-flex align-items-center">
+                                    <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">Miller</a></label>
+                                    <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                    <span class="text-white fs-14">8/22/2021 8:15PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 pt-2">
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/chat.svg" class="img-fluid" alt="Chat">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2">
+                                            <a href="single-chat.html" class="grey-clr hover-white fs-16 mb-0">Introducing background color to the webiste</a>
+                                            <div class="d-flex align-items-center mt-1">
+                                                <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">GreatNinja</a></label>
+                                                <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                                <span class="text-white fs-14">6/17/2021 7:15PM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">20</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">85</label>
+                                </div>
+                                <div class="col-sm-4">                                
+                                    <div class="d-flex align-items-center">
+                                    <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">MacMillan</a></label>
+                                    <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                    <span class="text-white fs-14">7/30/2021 9:13PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 pt-2">
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/chat.svg" class="img-fluid" alt="Chat">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2">
+                                            <a href="single-chat.html" class="grey-clr hover-white fs-16 mb-0">Demonstration of Development</a>
+                                            <div class="d-flex align-items-center mt-1">
+                                                <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">LievenMilitakiri</a></label>
+                                                <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                                <span class="text-white fs-14">5/19/2021 8:43PM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">15</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">68</label>
+                                </div>
+                                <div class="col-sm-4">                                
+                                    <div class="d-flex align-items-center">
+                                    <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">GranoMan</a></label>
+                                    <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                    <span class="text-white fs-14">6/29/2021 10:06PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 pt-2">
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/chat.svg" class="img-fluid" alt="Chat">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2">
+                                            <a href="single-chat.html" class="grey-clr hover-white fs-16 mb-0">Game Sounds</a>
+                                            <div class="d-flex align-items-center mt-1">
+                                                <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">BartBig</a></label>
+                                                <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                                <span class="text-white fs-14">5/8/2021 12:09AM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">8</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">10</label>
+                                </div>
+                                <div class="col-sm-4">                                
+                                    <div class="d-flex align-items-center">
+                                    <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">Girlbarby</a></label>
+                                    <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                    <span class="text-white fs-14">6/15/2021 8:15PM</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3 pt-2">
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <img src="images/chat.svg" class="img-fluid" alt="Chat">
+                                        </div>
+                                        <div class="flex-grow-1 ms-2">
+                                            <a href="single-chat.html" class="grey-clr hover-white fs-16 mb-0">Introducing new icons</a>
+                                            <div class="d-flex align-items-center mt-1">
+                                                <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">Samuel</a></label>
+                                                <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                                <span class="text-white fs-14">5/1/2021 1:08AM</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">9</label>
+                                </div>
+                                
+                                <div class="col-sm">
+                                    <label class="mb-0 text-white fs-14">37</label>
+                                </div>
+                                <div class="col-sm-4">                                
+                                    <div class="d-flex align-items-center">
+                                    <label class="text-white fs-14">by <a href="javascript:void(0)" class="lightbrown-clr hover-clr">McShown</a></label>
+                                    <i class="fas fa-circle fs-small mx-2 grey-clr-2"></i>
+                                    <span class="text-white fs-14">5/21/2021 8:15PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <ul class="pagination table-pagination pt-3">
+                        <li class="page-item disabled"><a class="page-link" href="javascript:void(0)"><i class="fas fa-chevron-left"></i></a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0)">1</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0)">4</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0)">5</a></li>
+                        <li class="page-item"><a class="page-link" href="javascript:void(0)"><i class="fas fa-chevron-right"></i></a></li>
+                      </ul>
+                   
+                      
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a href="javascript:void(0)" class="nav-link text-white">Markeer alles als gelezen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="forum-rules-1.html" class="nav-link text-white">Forum Regels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="forum-help-1.html" class="nav-link text-white">Forum Hulp</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <footer class="padding-div mt-auto">
+            <div class="container-fluid">
+                <div class="row mt-3">
+                    <div class="col-sm-8 offset-sm-2 text-center">
+                        <p class="copyright-para without-border fs-14 brown-clr py-2 mb-0">All Rights Reserved. © TOTG 2022 | <a href="privacy-policy.html" class="brown-clr no-underline">Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div> 
+        </footer>
+    </div>
+
+    
+        <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./js/custom.js"></script>
+    </body>
+</html>
